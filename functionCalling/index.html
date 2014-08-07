@@ -29,5 +29,14 @@
 
 	var wallA = measureArea(23,12);
 	var wallB = measureArea(21,23);
+
+	// returning multiple values
+
+	function returnSizes(a,b,c){
+		var area = a * b;
+		var volume = a * b * c;
+		var sizes = [area, volume];
+		return sizes;
+	}
 </script>
 </html>
