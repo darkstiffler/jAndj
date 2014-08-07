@@ -1,3 +1,8 @@
+document.write('<h2>hello world</h2>');
+var theDate = new Date();
+document.write(theDate);
+
+
 // declaring function with parameters
 function findArea(height, width){
 	return height * width;
@@ -40,3 +45,23 @@ function anon(){
 var anon = function(){
 	// do something
 }
+
+// immediately invoked function expressions
+var helloWorldNow = (function(){
+	console.log('hello world right now!');
+}());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
