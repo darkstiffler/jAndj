@@ -51,3 +51,28 @@ var helloWorldNow = (function(){
 }());
 
 
+function add(something, somethingElse){
+	result = something + somethingElse;
+}
+
+add();
+
+function sayHello(){
+	document.write('hello world');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
